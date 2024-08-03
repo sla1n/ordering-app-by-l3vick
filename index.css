@@ -1,0 +1,251 @@
+body {
+    font-family: 'Smythe', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    background-color: #393333;
+} 
+
+section{
+    margin: 0;
+}
+
+
+h1{
+    padding: 46px 19px 0 46px;
+}
+
+h2{
+    padding: 0 0 70px 46px;
+    font-size: 22px;
+}
+
+h3{
+    margin: 0;
+    padding: 45px 0 60px 0;
+    text-align: center;
+    font-size: 28px;
+}
+
+h4{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 47px;
+}
+
+h1, h2{
+    margin: 0;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+p{
+    margin: 0;
+}
+
+input{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    margin-top: 10px; 
+    border: 1px solid #757575;
+    padding: 16px;
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 23px;
+    border-radius: 3.89px;
+   
+}
+
+
+/*containers*/
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    
+}
+
+.header-container{
+    background-image:url('img/header-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.dish-container{
+    display: flex;
+    gap: 31px;
+    padding-top: 67px;
+    padding-bottom: 51px;
+    margin: 0 46px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.icon-container{
+    width: 100px;
+}
+
+.dish-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.order-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 46px;
+}
+
+.order-items-container{
+    padding-bottom: 30px;
+}
+
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #393333;
+    margin: 0 46px 10px 46px;
+    padding-top: 14px;
+}
+
+.form-container{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 542px;
+    width: 524px;
+    background-color: #FFFFFF;
+    display: none;
+    flex-direction: column;
+    padding: 0 23px;
+    box-shadow: 
+    20px 0 50px rgba(0, 0, 0, 0.3), 
+    -20px 0 50px rgba(0, 0, 0, 0.3),
+    0 20px 50px rgba(0, 0, 0, 0.3), 
+    0 -20px 50px rgba(0, 0, 0, 0.3); 
+}
+
+.thank-item-container{
+    background-color: #FFFFFF;
+    padding: 46px;
+}
+
+/*typography*/
+
+.dish-icon{
+    font-size: 78px;
+}
+
+.dish-name, .order-item-name{
+    font-size: 28px;
+    color: #000000;
+}
+
+.dish-content{
+    font-size: 16px;
+    color: #8B8B8B;
+
+}
+
+.dish-price, .order-item-price{
+    font-size: 20px;
+    color: #000000;
+}
+
+
+.thank-text{
+    font-size: 32px;
+    color: #065F46;
+    text-align: center;
+    padding: 52px 0;
+    background-color: #ECFDF5;
+}
+
+/*buttons*/
+
+.add-dish-btn {
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+    margin: 20px 0 20px auto;
+    font-size: 24px;
+    font-weight: 200;
+    background-color: #F5F5F5;
+    width: 50px;
+    cursor: pointer; 
+}
+
+.add-dish-btn:hover, 
+.add-dish-btn:active {
+    background-color: #E0E0E0; 
+}
+
+.add-dish-btn:focus {
+    outline: 1px solid black; 
+}
+
+.complete-btn{
+    padding: 18px 0;
+    text-align: center;
+    background-color: #16DB99;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border:none;
+    display: block;
+    width: 508px;
+    margin: 53px 46px 0 46px;
+    cursor: pointer;
+}
+
+.remove-btn{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #BBBBBB;
+    background-color: #FFFFFF;
+    border: none;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+    
+}
+
+.remove-btn:hover,
+.remove-btn:active{
+    text-decoration: underline;
+}
+
+.pay-btn{
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: #16DB99;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 18px 0;
+    margin-top: 46px;
+    margin-bottom: 0;
+    border-radius: 3.89px;
+    height: 71px;
+    cursor: pointer;
+}
+
+
+/*utility*/
+
+
+.hidden{
+    display: none;
+}
+
+.grey-text{
+    color: #8B8B8B;
+}
